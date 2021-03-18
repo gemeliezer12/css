@@ -1,0 +1,105 @@
+form{
+    margin-top: 60px;
+}
+
+form p{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form div, form input{
+    margin-top: 34px;
+}
+
+form .option{
+    text-align: center;
+}
+
+form .btn-c{
+    width: 100%;
+}
+
+.option span{
+    color: rgb(125, 125, 125);
+}
+
+.post-box{
+    display: flex;
+    padding: 15px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(125, 125, 125);
+}
+
+.header{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid rgb(125, 125, 125);
+}
+
+.main-container{
+    width: 100%;
+}
+
+.header p{
+    font-size: 26px;
+    font-weight: 900;
+    display: inline;
+    cursor: pointer;
+}
+
+.post{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+
+.post-input{
+    font-size: 20px;
+    margin-top: 18px;
+    border: none;
+    resize: vertical;
+    min-height: 24px;
+    max-height: 96px;
+    height: 24px;
+}
+
+.post div{
+    margin-top: 20px;
+}
+
+.post .btn-s{
+    display: flex;
+    padding-right: 16px;
+    padding-left: 16px;
+    float: right;
+}
+
+.home{
+    display: flex;
+    max-width: 600px;
+    margin: auto;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 6px;
+    height: 100vh;
+    border-right: 1px solid rgb(125, 125, 125);
+}
+
+.sidebar *{
+    margin-bottom: 6px;
+}

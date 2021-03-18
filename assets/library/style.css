@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: rgb(20, 30, 45);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(30, 150, 225);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+textarea{
+    outline: none;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+input{
+    outline: none;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+button{
+    outline: none;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    max-width: 400px;
+}
+
+.container .css-container{
+    margin-top: 32px;
+}
+
+.btn-s{
+    padding: 6px;
+    padding-right: 8px;
+    padding-left: 8px;
+    cursor: pointer;
+    letter-spacing: 1.6px;
+}
+
+.btn-s, .btn-m, .btn-l{
+    border: 1px solid rgba(0, 130, 210);
+}
+
+.btn-c, .btn-c, .btn-c{  
+    border-radius: 100px;
+    transition: all 0.2s ease;
+    background: rgb(30, 160, 240);
+    font-weight: 900;
+}
+
+.btn-t, .btn-t, .btn-t{
+    color: rgb(30, 160, 240);
+    border-radius: 100px;
+    transition: all 0.2s ease;
+    background: transparent;
+    font-weight: 900;
+}
+
+.btn-c:hover, .btn-c:hover, .btn-c:hover{
+    opacity: 0.8;
+}
+
+.btn-t:hover, .btn-t:hover, .btn-t:hover{
+    background-color: rgba(30, 160, 240, 0.2);
+}
+
+.btn-m{
+    padding: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.btn-l{
+    padding: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 26px;
+    cursor: pointer;
+    letter-spacing: 2.6px;
+}
+
+.lbl-input{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 8px;
+    padding-right: 4px;
+    padding-left: 4px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.lbl-input label{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.lbl-input input{
+    border: none;
+    font-size: 18px;
+    margin-top: 8px;
+    color: white;
+}
+
+.btn-i{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.btn-i:hover{
+    background-color: rgba(30, 160, 240, 0.2);
+    color: rgb(10, 140, 220);
+}
