@@ -32,6 +32,9 @@
     </div>
 
     <div class="main-container main-profile">
+        <a href="<?php echo $pictureProfiles; ?>">
+            <img class="main-picture" src="<?php echo $pictureProfiles; ?>" alt="">
+        </a>
     </div>
 </body>
 </html>
