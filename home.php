@@ -8,9 +8,6 @@
     <div class="sidebar">
         <div class="options">
             <a href="home.php">
-                <i class="fab fa-twitter btn-i logo"></i>
-            </a>
-            <a href="home.php">
                 <i style="color: rgb(30, 160, 240);"  class="fas fa-home btn-i"></i>
             </a>
             <a href="search.php">

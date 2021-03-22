@@ -115,11 +115,6 @@ form .btn-c{
     overflow: auto;
 }
 
-.sidebar .logo:hover{
-    background-color: rgba(125, 125, 125, 0.2);
-    color: white;
-}
-
 .sidebar .options{
     display: flex;
     flex-direction: column;
