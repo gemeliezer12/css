@@ -1,9 +1,9 @@
 <?php
-class User{
+class Profile{
     public function fetchAll(){
         global $pdo;
 
-        $query = $pdo->prepare("SELECT * FROM users");
+        $query = $pdo->prepare("SELECT * FROM profiles");
         $query->execute();
 
         return $query->fetchAll();
@@ -12,7 +12,7 @@ class User{
     public function fetchData($id){
         global $pdo;
 
-        $query = $pdo->prepare("SELECT * FROM users WHERE idUsers = ?");
+        $query = $pdo->prepare("SELECT * FROM profiles WHERE idUsers = ?");
         $query->bindValue(1, $id);
         $query->execute();
 

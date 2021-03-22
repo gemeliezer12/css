@@ -1,7 +1,22 @@
 <?php
+session_start();
 include "library/user.class.php";
+include "library/profile.class.php";
 include "dbh.php";
+
 $user = new User;
+$profile = new Profile;
+if(isset($_SESSION["idUsers"])){
+    $id = $_SESSION["idUsers"];
+    $userData = $user->fetchData($id);
+    $profileData = $profile->fetchData($id);
+
+    $pictureProfiles = $profileData["pictureProfiles"];
+
+    if(empty($pictureProfiles)){
+        $pictureProfiles = "profile/default.jpg";
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,3 +29,5 @@ $user = new User;
     <link rel="stylesheet" href="assets/style.css">
     <title>Document</title>
 </head>
+
+<?php

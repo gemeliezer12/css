@@ -1,5 +1,8 @@
 <?php
     include "assets/header.php";
+    if(isset($_SESSION["idUsers"])){
+        header("Location: home.php");
+    }
 ?>
 <body>
     <div class="container">

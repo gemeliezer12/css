@@ -1,3 +1,5 @@
+/* Login/Signup Form */
+
 form{
     margin-top: 60px;
 }
@@ -24,10 +26,13 @@ form .btn-c{
     color: rgb(125, 125, 125);
 }
 
+/* Home Page */
+
 .post-box{
     display: flex;
     padding: 15px;
     padding-top: 10px;
+    border-top: 1px solid rgb(125, 125, 125);
     border-bottom: 1px solid rgb(125, 125, 125);
 }
 
@@ -35,11 +40,11 @@ form .btn-c{
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    border-bottom: 1px solid rgb(125, 125, 125);
 }
 
 .main-container{
     width: 100%;
+    margin-left: 62.25px;
 }
 
 .header p{
@@ -57,25 +62,24 @@ form .btn-c{
 }
 
 .profile img{
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
+    cursor: pointer;
 }
-
-
 
 .post-input{
     font-size: 20px;
-    margin-top: 18px;
+    margin-top: 12px;
     border: none;
     resize: vertical;
     min-height: 24px;
-    max-height: 96px;
+    max-height: 144px;
     height: 24px;
 }
 
 .post div{
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 .post .btn-s{
@@ -85,21 +89,83 @@ form .btn-c{
     float: right;
 }
 
-.home{
+.home-body{
     display: flex;
     max-width: 600px;
     margin: auto;
 }
 
+@media only screen and (min-width: 599px) {
+    .main-container{
+        border-right: 1px solid rgb(125, 125, 125);
+    }
+}
+
 .sidebar{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    padding: 6px;
-    height: 100vh;
     border-right: 1px solid rgb(125, 125, 125);
+    height: 100vh;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 12px;
+    position: fixed;
+    overflow: auto;
 }
 
-.sidebar *{
-    margin-bottom: 6px;
+.sidebar .logo:hover{
+    background-color: rgba(125, 125, 125, 0.2);
+    color: white;
+}
+
+.sidebar .options{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.sidebar .profile{
+    margin-bottom: 0;
+}
+
+.sidebar .profile button{
+    border: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.sidebar .options a{
+    margin-bottom: 12px;
+}
+
+.index{
+    display: flex;
+    flex-direction: column;
+}
+
+.index a:hover{
+    text-decoration: none;
+}
+
+.index{
+    margin-top: 60px;
+}
+
+.index .btn-m{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.index .title{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.index .desc{
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 }
