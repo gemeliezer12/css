@@ -42,8 +42,10 @@
                 <div>
                     <input type="submit" name="submit" class="btn-s btn-c" value="Post">
                 </div>
+            
             </div>
         </div>
+        <div class="div"></div>
     </div>
 </body>
 </html>

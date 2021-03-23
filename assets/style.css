@@ -171,3 +171,7 @@ form .btn-c{
     max-height: 300px;
     border-radius: 50%;
 }
+
+.div{
+    height: 100vh;
+}
