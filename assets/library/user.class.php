@@ -12,8 +12,9 @@ class User{
     public function fetchData($id){
         global $pdo;
 
-        $query = $pdo->prepare("SELECT * FROM users WHERE idUsers = ?");
+        $query = $pdo->prepare("SELECT * FROM users WHERE idUsers = ? OR usernameUsers = ?");
         $query->bindValue(1, $id);
+        $query->bindValue(2, $id);
         $query->execute();
 
         return $query->fetch();
