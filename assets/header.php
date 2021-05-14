@@ -2,7 +2,7 @@
 session_start();
 include "library/user.class.php";
 include "library/profile.class.php";
-include "dbh.php";
+include "inc/dbh.inc.php";
 
 $user = new User;
 $profile = new Profile;
@@ -12,6 +12,7 @@ if(isset($_SESSION["idUsers"])){
     $profileData = $profile->fetchData($id);
 
     $pictureProfiles = $profileData["pictureProfiles"];
+    $usernameUsers = $profileData["usernameUsers"];
 
     if(empty($pictureProfiles)){
         $pictureProfiles = "profile/default.jpg";

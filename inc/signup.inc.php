@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "../assets/dbh.php";
+include "dbh.inc.php";
 if(isset($_POST["submit"])){
     $username = $_POST["uid"];
     $email = $_POST["mail"];

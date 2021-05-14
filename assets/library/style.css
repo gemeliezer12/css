@@ -131,12 +131,13 @@ button{
     font-size: 26px;
     padding: 10px;
     border-radius: 100px;
-    transition: all 0.2s ease;
+    transition: background 0.2s ease;
+    transition: color 0.2s ease;
     cursor: pointer;
 }
 
 .btn-i:hover{
-    background-color: rgba(30, 160, 240, 0.2);
+    background: rgba(30, 160, 240, 0.2);
     color: rgb(10, 140, 220);
 }
 

@@ -32,6 +32,7 @@
         <a href="<?php echo $pictureProfiles; ?>">
             <img class="main-picture" src="<?php echo $pictureProfiles; ?>" alt="">
         </a>
+        <p><?php echo $usernameUsers;?></p>
         <div class="div"></div>
     </div>
 </body>
