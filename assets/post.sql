@@ -18,5 +18,7 @@ CREATE TABLE comments(
     textComments varchar(400),
     mediaComments varchar(510),
     likenumComments int(11),
-    retweetnumComments int(11)
+    retweetnumComments int(11),
+    FOREIGN KEY (idUsers) REFERENCES idUsers(idUsers),
+    FOREIGN KEY (idPosts) REFERENCES idUsers(idPosts)
 )

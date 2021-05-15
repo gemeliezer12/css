@@ -32,14 +32,20 @@ form .btn-c{
     display: flex;
     padding: 15px;
     padding-top: 10px;
-    border-top: 1px solid rgb(125, 125, 125);
+    /* border-top: 1px solid rgb(125, 125, 125); */
     border-bottom: 1px solid rgb(125, 125, 125);
+    margin-top: 53px;
 }
 
 .header{
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid rgb(125, 125, 125);
+    z-index: 10;
+    background-color: rgb(20, 30, 45);
 }
 
 .main-container{
